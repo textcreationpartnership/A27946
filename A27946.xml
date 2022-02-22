@@ -1,0 +1,1763 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An Essay of a new version of the Psalms of David consisting of the first twenty : fitted to the tunes used in churches.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1695</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 48 KB of XML-encoded text transcribed from 31 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A27946</idno>
+            <idno type="STC">Wing B2591</idno>
+            <idno type="STC">ESTC R18353</idno>
+            <idno type="EEBO-CITATION">13413537</idno>
+            <idno type="OCLC">ocm 13413537</idno>
+            <idno type="VID">99430</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A27946)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 99430)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 835:29)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>An Essay of a new version of the Psalms of David consisting of the first twenty : fitted to the tunes used in churches.</title>
+               </titleStmt>
+               <extent>[2], 59 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for the Company of Stationers,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1695.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible. --  O.T. --  Psalms I-XX --  Paraphrases, English.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-10</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-01</date>
+            <label>Ali Jakobson</label>Sampled and proofread</change>
+         <change>
+            <date>2012-01</date>
+            <label>Ali Jakobson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="imprimatur">
+            <pb facs="tcp:99430:1" rendition="simple:additions"/>
+            <p>Imprimatur.</p>
+            <closer>
+               <signed>
+                  <hi>Humf. Hody,</hi> Reverend. in Chriſt. Pat. ac D.D. <hi>Johanni</hi> Archiep. <hi>Cant.</hi> à Sacris Dom.</signed>
+               <date>
+                  <hi>Nov.</hi> 7. 1694.</date>
+            </closer>
+         </div>
+         <div type="title_page">
+            <pb facs="tcp:99430:1" rendition="simple:additions"/>
+            <p>AN ESSAY OF A <hi>New Verſion</hi> OF THE PSALMS OF <hi>DAVID:</hi> CONSISTING Of the firſt Twenty.</p>
+            <p>
+               <hi>Fitted to the Tunes uſed in Churches.</hi>
+            </p>
+            <q>
+               <bibl>
+                  <hi>Cor. I.XV.</hi>
+               </bibl> And I will ſing with the Under<g ref="char:EOLhyphen"/>ſtanding alſo.</q>
+            <p>
+               <hi>LONDON:</hi> Printed for the Company of <hi>Stationers.</hi> MDCXCV.</p>
+         </div>
+      </front>
+      <body>
+         <div type="Psalter">
+            <pb facs="tcp:99430:2"/>
+            <pb n="1" facs="tcp:99430:2"/>
+            <head>
+               <hi>A</hi> New Verſion of the <hi>PSALMS,</hi> &amp;c.</head>
+            <div n="1" type="Psalm">
+               <head>PSALM <hi>I.</hi>
+               </head>
+               <lg>
+                  <l n="1">1. HAppy the Man whom ill advice</l>
+                  <l>From Virtue ne're withdrew;</l>
+                  <l>Who ne're with Sinners ſtood, nor ſat</l>
+                  <l>Amongſt the ſcoffing Crew:</l>
+               </lg>
+               <lg>
+                  <l n="2">2. But always makes the Law of God</l>
+                  <l>His bus'neſs and delight;</l>
+                  <l>Devoutly reads therein by day,</l>
+                  <l>And meditates by night.</l>
+               </lg>
+               <lg>
+                  <l n="3">3. He, like a Tree by Rivers fed,</l>
+                  <l>With timely Fruit ſhall bend;</l>
+                  <l>His Leaf ſhall flouriſh, and Succeſs</l>
+                  <l>All his Deſigns attend.</l>
+               </lg>
+               <lg>
+                  <pb n="2" facs="tcp:99430:3"/>
+                  <l n="4">4. Ungodly Men, and their attempts,</l>
+                  <l>No laſting Root ſhall find;</l>
+                  <l>Untimely blaſted, and diſpers'd</l>
+                  <l>Like Chaff before the wind.</l>
+               </lg>
+               <lg>
+                  <l n="5">5. The Wicked therefore ſhall not ſtand</l>
+                  <l>Before their Judges face;</l>
+                  <l>Nor Hypocrites, who paſt for Saints,</l>
+                  <l>Amongſt the Juſt have place.</l>
+               </lg>
+               <lg>
+                  <l n="6">6. God knows the ways of righteous Men,</l>
+                  <l>To happineſs they tend;</l>
+                  <l>But Sinners, and their vain deſigns,</l>
+                  <l>Shall both in ruin end.</l>
+               </lg>
+            </div>
+            <div n="2" type="Psalm">
+               <pb n="3" facs="tcp:99430:3"/>
+               <head>PSALM <hi>II.</hi>
+               </head>
+               <lg>
+                  <l n="1">1. WIth reſtleſs and ungovern'd Rage,</l>
+                  <l>Why do the Heathen ſtorm?</l>
+                  <l>Why in ſuch fond attempts engage,</l>
+                  <l>As they can ne're perform?</l>
+               </lg>
+               <lg>
+                  <l n="2">2. The Great in Council and in Might,</l>
+                  <l>Their various Forces bring;</l>
+                  <l>Againſt the Lord they all unite,</l>
+                  <l>And his anointed King.</l>
+               </lg>
+               <lg>
+                  <l n="3">3. Muſt we ſubmit to their commands?</l>
+                  <l>Blinded with pride they ſay;</l>
+                  <l>No, let us break their ſlaviſh bands,</l>
+                  <l>And caſt their chains away.</l>
+               </lg>
+               <lg>
+                  <l n="4">4. But God, who ſits inthron'd on high,</l>
+                  <l>Whoſe Wiſdom all things guides,</l>
+                  <l>Does their conſpiring ſtrength defie,</l>
+                  <l>Their empty plots derides.</l>
+               </lg>
+               <lg>
+                  <pb n="4" facs="tcp:99430:4"/>
+                  <l n="5">5. Thick clouds of wrath Divine ſhall break</l>
+                  <l>On his Rebellious Foes;</l>
+                  <l>And in loud Thunder thus he'll ſpeak</l>
+                  <l>To all that dare oppoſe.</l>
+               </lg>
+               <lg>
+                  <l n="6">6. "In ſpight of thoſe who thwart my Will,</l>
+                  <l>"The King that I approve,</l>
+                  <l>"Whoſe Throne is fix'd on <hi>Sion</hi>'s hill,</l>
+                  <l>"Like that, ſhall never move.</l>
+               </lg>
+               <lg>
+                  <l n="7">7. "Liſten, O Earth, whilſt I declare</l>
+                  <l>"My firm unchang'd Decree;</l>
+                  <l>"Thou art my Son, this day my Heir</l>
+                  <l>"Have Ibegotten thee.</l>
+               </lg>
+               <lg>
+                  <l n="8">8. "Ask, and receive; thy juſt Commands</l>
+                  <l>"The Heathen World ſhall ſway,</l>
+                  <l>"The utmoſt Limits of the Lands</l>
+                  <l>"Shall thy dread Will obey.</l>
+               </lg>
+               <lg>
+                  <l n="9">9. "Thy pow'rful Scepter thou ſhalt ſhake,</l>
+                  <l>"And cruſh them ev'ry where;</l>
+                  <l>"As maſſy bars of Iron break</l>
+                  <l>"The Potters brittle ware.</l>
+               </lg>
+               <lg>
+                  <pb n="5" facs="tcp:99430:4"/>
+                  <l n="10">10. Learn then, ye Princes, and give ear</l>
+                  <l>Ye Judges of the Earth;</l>
+                  <l n="11">11. Worſhip the Lord with holy Fear,</l>
+                  <l>Rejoyce with awful mirth.</l>
+               </lg>
+               <lg>
+                  <l n="12">12. Appeaſe the Son with due reſpect,</l>
+                  <l>Your humble homage pay;</l>
+                  <l>Leſt he revenge the cold neglect,</l>
+                  <l>Incens'd by your delay:</l>
+               </lg>
+               <lg>
+                  <l n="13">13. If but in part his anger riſe,</l>
+                  <l>Who can endure its flame?</l>
+                  <l>Then bleſs'd are they, whoſe hope relies</l>
+                  <l>On his moſt holy Name.</l>
+               </lg>
+            </div>
+            <div n="3" type="Psalm">
+               <pb n="6" facs="tcp:99430:5"/>
+               <head>PSALM <hi>III.</hi>
+               </head>
+               <lg>
+                  <l n="1">1. LOrd, how of late are multiply'd</l>
+                  <l>The Troublers of my Peace!</l>
+                  <l>And as their Factious number grows,</l>
+                  <l>So does their Rage increaſe.</l>
+               </lg>
+               <lg>
+                  <l n="2">2. Inſulting they my Soul upbraid,</l>
+                  <l>And him that I adore;</l>
+                  <l>The God in whom he truſts, ſay they,</l>
+                  <l>Shall reſcue him no more.</l>
+               </lg>
+               <lg>
+                  <l n="3">3. But thou, O Lord, art my Defence;</l>
+                  <l>On thee my hopes rely;</l>
+                  <l>Thou art my Glory, and ſhalt yet</l>
+                  <l>Lift up my head on high.</l>
+               </lg>
+               <lg>
+                  <l n="4">4. Since, whenſoe're in like diſtreſs</l>
+                  <l>To God I made my pray'r,</l>
+                  <l>He heard me from his holy Hill,</l>
+                  <l>Why ſhould I now deſpair?</l>
+               </lg>
+               <lg>
+                  <pb n="7" facs="tcp:99430:5"/>
+                  <l n="5">5. Guarded by him, I laid me down</l>
+                  <l>My ſweet repoſe to take;</l>
+                  <l>For I through him ſecurely ſleep,</l>
+                  <l>Through him in ſafety wake.</l>
+               </lg>
+               <lg>
+                  <l n="6">6. No force, nor fury of my foes,</l>
+                  <l>My courage ſhall confound;</l>
+                  <l>Were they as many Hoſts, as Men,</l>
+                  <l>That have beſet me round.</l>
+               </lg>
+               <lg>
+                  <l n="7">7. Ariſe, and ſave me, O my God,</l>
+                  <l>Who oft haſt own'd my Cauſe,</l>
+                  <l>And ſcatter'd oft theſe foes to me</l>
+                  <l>And to thy righteous Laws.</l>
+               </lg>
+               <lg>
+                  <l n="8">8. Salvation to the Lord belongs;</l>
+                  <l>He only can defend;</l>
+                  <l>His Bleſſing he extends to all</l>
+                  <l>That on his pow'r depend.</l>
+               </lg>
+            </div>
+            <div n="4" type="Psalm">
+               <pb n="8" facs="tcp:99430:6"/>
+               <head>PSALM <hi>IV.</hi>
+               </head>
+               <lg>
+                  <l n="1">1. OLord, that art my righteous Judge,</l>
+                  <l>To my complaint give ear;</l>
+                  <l>Thou that ſtill free'ſt me from diſtreſs,</l>
+                  <l>Have mercy, Lord, and hear.</l>
+               </lg>
+               <lg>
+                  <l n="2">2. How long will ye, O Sons of Men,</l>
+                  <l>To blot my fame deviſe?</l>
+                  <l>How long your vain deſigns purſue,</l>
+                  <l>And ſpread malicious lies?</l>
+               </lg>
+               <lg>
+                  <l n="3">3. Conſider, that the righteous Man</l>
+                  <l>Is Gods peculiar choice,</l>
+                  <l>And when to him I make my pray'r,</l>
+                  <l>He always hears my voice.</l>
+               </lg>
+               <lg>
+                  <l n="4">4. Then ſtand in awe of his commands,</l>
+                  <l>Flee ev'ry thing that's ill;</l>
+                  <l>Commune in private with your hearts,</l>
+                  <l>And bend them to his will.</l>
+               </lg>
+               <lg>
+                  <pb n="9" facs="tcp:99430:6"/>
+                  <l n="5">5. The place of other Sacrifice</l>
+                  <l>Let Righteouſneſs ſupply;</l>
+                  <l>And let your hope ſecurely fix'd,</l>
+                  <l>On God alone rely.</l>
+               </lg>
+               <lg>
+                  <l n="6">6. Whilſt worldly Minds impatient grow</l>
+                  <l>More proſp'rous Times to ſee,</l>
+                  <l>Still let the glories of thy Face</l>
+                  <l>Shine brightly, Lord, on me.</l>
+               </lg>
+               <lg>
+                  <l n="7">7. So ſhall my heart o'erflow with joy</l>
+                  <l>More laſting and more true,</l>
+                  <l>Than theirs, who ſtores of Corn and Wine</l>
+                  <l>Succeſſively renew.</l>
+               </lg>
+               <lg>
+                  <l n="8">8. Then down in peace I'll lay my head,</l>
+                  <l>And take my needful reſt;</l>
+                  <l>No other guard, O Lord, I crave,</l>
+                  <l>Of thy Defence poſſeſt.</l>
+               </lg>
+            </div>
+            <div n="5" type="Psalm">
+               <pb n="10" facs="tcp:99430:7"/>
+               <head>PSALM <hi>V.</hi>
+               </head>
+               <lg>
+                  <l n="1">1. LOrd, hear the voice of my complaint,</l>
+                  <l>Accept my ſecret pray'r;</l>
+                  <l n="2">2. To thee alone, my King, my God,</l>
+                  <l>Will I for help repair.</l>
+               </lg>
+               <lg>
+                  <l n="3">3. Thou in the morn my voice ſhalt hear;</l>
+                  <l>And with the dawning day,</l>
+                  <l>To thee devoutly I'll look up,</l>
+                  <l>To thee devoutly pray.</l>
+               </lg>
+               <lg>
+                  <l n="4">4. For thou the wrongs that I ſuſtain</l>
+                  <l>Canſt never, Lord, approve,</l>
+                  <l>Who from thy ſacred Dwelling-place</l>
+                  <l>All evil doſt remove.</l>
+               </lg>
+               <lg>
+                  <l n="5">5. Not long ſhall hardn'd fools remain</l>
+                  <l>Unpuniſh'd in thy ſight.</l>
+                  <l>All ſuch as act unrighteous things</l>
+                  <l>Thy vengeance ſhall requite.</l>
+               </lg>
+               <lg>
+                  <pb n="11" facs="tcp:99430:7"/>
+                  <l n="6">6. The ſland'ring Tongue, O God of Truth,</l>
+                  <l>By thee ſhall be deſtroy'd,</l>
+                  <l>Who hat'ſt alike the man in blood</l>
+                  <l>And in deceit imploy'd.</l>
+               </lg>
+               <lg>
+                  <l n="7">7. Bùt when thy boundleſs Grace ſhall me</l>
+                  <l>To thy lov'd Courts reſtore,</l>
+                  <l>On thee I'll fix my longing eyes,</l>
+                  <l>And humbly there adore.</l>
+               </lg>
+               <lg>
+                  <l n="8">8. Conduct me in thy righteous Paths,</l>
+                  <l>For watchful is my foe:</l>
+                  <l>Therefore, O Lord, make plain the way</l>
+                  <l>Wherein I ought to go.</l>
+               </lg>
+               <lg>
+                  <l n="9">9. Their mouth vents nothing but deceit,</l>
+                  <l>Their heart is ſet on wrong;</l>
+                  <l>Their throat is a devouring grave,</l>
+                  <l>They flatter with their tongue.</l>
+               </lg>
+               <lg>
+                  <l n="10">10. By their own counſels let them fall,</l>
+                  <l>Oppreſt with loads of ſin;</l>
+                  <l>For they againſt thy righteous Laws</l>
+                  <l>Have harden'd rebels been.</l>
+               </lg>
+               <lg>
+                  <pb n="12" facs="tcp:99430:8"/>
+                  <l n="11">11. But let all thoſe who truſt in thee,</l>
+                  <l>With ſhouts their joy proclaim;</l>
+                  <l>Let them rejoyce whom thou preſerv'ſt,</l>
+                  <l>And all that love thy Name.</l>
+               </lg>
+               <lg>
+                  <l n="12">12. To righteous Men the righteous Lord</l>
+                  <l>His Bleſſing will extend,</l>
+                  <l>And with his favour, from their foes,</l>
+                  <l>As with a Shield, defend.</l>
+               </lg>
+            </div>
+            <div n="6" type="Psalm">
+               <pb n="13" facs="tcp:99430:8"/>
+               <head>PSALM <hi>VI.</hi>
+               </head>
+               <lg>
+                  <l n="1">1. THY dreadful anger, Lord, reſtrain,</l>
+                  <l>And ſpare a wretch forlorn;</l>
+                  <l>Correct me not in thy fierce wrath,</l>
+                  <l>Too heavy to be born.</l>
+               </lg>
+               <lg>
+                  <l n="2">2. Have mercy, Lord, my ſtrength decays,</l>
+                  <l>Unable to endure</l>
+                  <l>The anguiſh of my aking bones,</l>
+                  <l>Which thou alone canſt cure.</l>
+               </lg>
+               <lg>
+                  <l n="3">3. My tortur'd fleſh infects my mind,</l>
+                  <l>And ſills my Soul with grief;</l>
+                  <l>But, Lord, how long wilt thou delay</l>
+                  <l>To grant me thy relief!</l>
+               </lg>
+               <lg>
+                  <l n="4">4. Thy wonted goodneſs, Lord, repeat,</l>
+                  <l>And eaſe my troubled Soul;</l>
+                  <l>Lord, for thy wond'rous mercy's ſake</l>
+                  <l>Vouchſafe to make me whole.</l>
+               </lg>
+               <lg>
+                  <pb n="14" facs="tcp:99430:9"/>
+                  <l n="5">5. For after death no more can I</l>
+                  <l>Thy glorious Acts proclaim;</l>
+                  <l>No pris'ner of the ſilent grave</l>
+                  <l>Can magnifie thy Name.</l>
+               </lg>
+               <lg>
+                  <l n="6">6. Quite tir'd with pain, with groaning faint,</l>
+                  <l>No hope of eaſe I ſee;</l>
+                  <l>The night, that quiets common griefs,</l>
+                  <l>Is ſpent in tears by me.</l>
+               </lg>
+               <lg>
+                  <l n="7">7. My beauty fades, my ſight grows dim,</l>
+                  <l>My eyes with weakneſs cloſe;</l>
+                  <l>Old age o'ertakes me, whilſt I think</l>
+                  <l>On my inſulting Foes.</l>
+               </lg>
+               <lg>
+                  <l n="8">8. But thoſe that triumph in my harms</l>
+                  <l>No longer ſhall rejoyce;</l>
+                  <l>For God, I find, accepts my tears,</l>
+                  <l>And liſtens to my voice.</l>
+               </lg>
+               <lg>
+                  <l n="9">9. 10. God hears and grants my humble pray'r,</l>
+                  <l>And they that wiſh my fall,</l>
+                  <l>Shall bluſh, and rage, to ſee that God</l>
+                  <l>Protects me from them all.</l>
+               </lg>
+            </div>
+            <div n="7" type="Psalm">
+               <pb n="15" facs="tcp:99430:9"/>
+               <head>PSALM <hi>VII.</hi>
+               </head>
+               <lg>
+                  <l n="1">1. OLord, my God, as I have plac'd</l>
+                  <l>My truſt alone in thee,</l>
+                  <l>From all my perſecutors rage</l>
+                  <l>Do thou deliver me.</l>
+               </lg>
+               <lg>
+                  <l n="2">2. Save me from my remorſeleſs Foe,</l>
+                  <l>Lord, interpoſe thy pow'r;</l>
+                  <l>Leſt, like a Savage Lyon, he</l>
+                  <l>My helpleſs Soul devour.</l>
+               </lg>
+               <lg>
+                  <l n="3">3, 4. If I am guilty, or did e're</l>
+                  <l>Againſt his peace combine;</l>
+                  <l>Nay, If I have not ſpar'd his life,</l>
+                  <l>Who ſought unjuſtly mine;</l>
+               </lg>
+               <lg>
+                  <l n="5">5. Let then to perſecuting Foes</l>
+                  <l>My Soul become a prey;</l>
+                  <l>Let them to earth tread down my life,</l>
+                  <l>In duſt my honour lay.</l>
+               </lg>
+               <lg>
+                  <pb n="16" facs="tcp:99430:10"/>
+                  <l n="6">6. Ariſe, and let thine anger, Lord,</l>
+                  <l>In my defence engage;</l>
+                  <l>Exalt thy ſelf above my foes,</l>
+                  <l>And their inſulting rage:</l>
+               </lg>
+               <lg>
+                  <l>Awake, awake, in my behalf,</l>
+                  <l>The Judgment to diſpence,</l>
+                  <l>Which thou haſt righteouſly ordain'd</l>
+                  <l>For injur'd Innocence.</l>
+               </lg>
+               <lg>
+                  <l n="7">7. So to thy Throne adoring crouds</l>
+                  <l>Shall ſtill for Juſtice fly;</l>
+                  <l>O! therefore for their ſuffering ſakes,</l>
+                  <l>Do thou return on high.</l>
+               </lg>
+               <lg>
+                  <l n="8">8. Impartial Judge of all the world,</l>
+                  <l>I truſt my cauſe to thee;</l>
+                  <l>O! judge me by my Righteouſneſs,</l>
+                  <l>And hearts Integrity.</l>
+               </lg>
+               <lg>
+                  <l n="9">9. Let wickedneſs, and wicked Men,</l>
+                  <l>Together be o'erthrown;</l>
+                  <l>But ſix the juſt, thou God, to whom</l>
+                  <l>The hearts of both are known.</l>
+               </lg>
+               <lg>
+                  <pb n="17" facs="tcp:99430:10"/>
+                  <l n="10">10, 11. God me protects; nor only me,</l>
+                  <l>But all of upright Heart;</l>
+                  <l>And daily lays up wrath for thoſe</l>
+                  <l>Who from his Laws depart.</l>
+               </lg>
+               <lg>
+                  <l n="12">12, If they perſiſt. he whets his ſword;</l>
+                  <l>His bow ſtands always bent;</l>
+                  <l n="13">13. Ev'n now, with ſwift deſtruction wing'd,</l>
+                  <l>His pointed ſhafts are ſent.</l>
+               </lg>
+               <lg>
+                  <l n="14">14. Thoſe treach'rous plots my foe conceiv'd,</l>
+                  <l>Abortive are and vain;</l>
+                  <l n="15">15. The pit he digg'd, has prov'd a grave</l>
+                  <l>His ruins to contain.</l>
+               </lg>
+               <lg>
+                  <l n="16">16. On his malicious head returns</l>
+                  <l>The miſchief he contriv'd;</l>
+                  <l>The violence, for me deſign'd,</l>
+                  <l>Is to himſelf arriv'd.</l>
+               </lg>
+               <lg>
+                  <l n="17">17. Therefore, of providence Divine,</l>
+                  <l>The Juſtice I'll proclaim;</l>
+                  <l>I'll ſing the praiſe of God moſt high,</l>
+                  <l>And celebrate his Name.</l>
+               </lg>
+            </div>
+            <div n="8" type="Psalm">
+               <pb n="18" facs="tcp:99430:11"/>
+               <head>PSALM <hi>VIII.</hi>
+               </head>
+               <lg>
+                  <l n="1">1. O Thou, to whom all Creatures bow</l>
+                  <l>Within this earthly frame,</l>
+                  <l>Thro' all the world how great art Thou!</l>
+                  <l>How glorious is thy Name!</l>
+               </lg>
+               <lg>
+                  <l>In Heav'n thy wond'rous Acts are ſung,</l>
+                  <l>Nor fully reckon'd there;</l>
+                  <l n="2">2. And yet thou mak'ſt the infant Tongue</l>
+                  <l>Thy boundleſs Praiſe declare:</l>
+               </lg>
+               <lg>
+                  <l>Through thee the weak confound the ſtrong,</l>
+                  <l>And cruſh their haughty Foes;</l>
+                  <l>And ſo thou quell'ſt the wicked throng</l>
+                  <l>That thee and thine oppoſe.</l>
+               </lg>
+               <lg>
+                  <l n="3">3. When Heav'n, thy beauteous work on high,</l>
+                  <l>Employs my wond'ring ſight;</l>
+                  <l>The Moon, that nightly gilds the sky,</l>
+                  <l>With Stars of feebler light;</l>
+               </lg>
+               <lg>
+                  <pb n="19" facs="tcp:99430:11"/>
+                  <l n="4">4. Lord, what is man, that ſtill thou lov'ſt</l>
+                  <l>To keep him in thy mind!</l>
+                  <l>Or what his offspring, that thou prov'ſt</l>
+                  <l>To them ſo wond'rous kind!</l>
+               </lg>
+               <lg>
+                  <l n="5">5. Him next in pow'r thou didſt create</l>
+                  <l>To thy celeſtial train;</l>
+                  <l n="6">6. Ordain'd, with dignity and ſtate,</l>
+                  <l>O'er all thy works to reign.</l>
+               </lg>
+               <lg>
+                  <l n="7">7. They jointly own his potent ſway;</l>
+                  <l>The Beaſts that prey, or graze;</l>
+                  <l n="8">8. The Bird, that wings its airy way,</l>
+                  <l>The Fiſh, that cuts the Seas.</l>
+               </lg>
+               <lg>
+                  <l n="9">9. O thou, to whom all Creatures bow</l>
+                  <l>Within this earthly frame,</l>
+                  <l>Through all the world how great art Thou!</l>
+                  <l>How glorious is thy Name!</l>
+               </lg>
+            </div>
+            <div n="9" type="Psalm">
+               <pb n="20" facs="tcp:99430:12"/>
+               <head>PSALM <hi>IX.</hi>
+               </head>
+               <div n="1" type="part">
+                  <lg>
+                     <l n="1">1. TO celebrate thy praiſe, O Lord,</l>
+                     <l>I will my heart prepare;</l>
+                     <l>To all the liſt'ning world thy Works,</l>
+                     <l>Thy wond'rous Works declare.</l>
+                  </lg>
+                  <lg>
+                     <l n="2">2. The thought of them ſhall to my Soul</l>
+                     <l>Exalted raptures bring;</l>
+                     <l>Whilſt to thy Name, O thou moſt High,</l>
+                     <l>Triumphant Praiſe I ſing.</l>
+                  </lg>
+                  <lg>
+                     <l n="3">3. Thou mad'ſt my haughty Foes to turn</l>
+                     <l>Their backs in ſhameful flight;</l>
+                     <l>Struck with thy preſence down they fell,</l>
+                     <l>They periſh'd at thy ſight.</l>
+                  </lg>
+                  <lg>
+                     <l n="4">4. Againſt inſulting Foes advanc'd,</l>
+                     <l>Thou didſt my cauſe maintain;</l>
+                     <l>My Right aſſerting from thy Throne,</l>
+                     <l>Where Truth and Juſtice reign.</l>
+                  </lg>
+                  <lg>
+                     <pb n="21" facs="tcp:99430:12"/>
+                     <l n="5">5. The inſolence of heathen pride</l>
+                     <l>Thou haſt reduc'd to ſhame;</l>
+                     <l>Their wicked offspring quite deſtroy'd,</l>
+                     <l>And blotted out their name.</l>
+                  </lg>
+                  <lg>
+                     <l n="6">6. Miſtaken Foes! your threats and you</l>
+                     <l>Are to a period come:</l>
+                     <l>Our Cities ſtand, deſign'd by you</l>
+                     <l>Their ſlaughter'd owners Tomb.</l>
+                  </lg>
+                  <lg>
+                     <l n="7">7, 8. The Lord endures, who has on high</l>
+                     <l>His Righteous Throne prepar'd,</l>
+                     <l>Impartial Juſtice to diſpenſe,</l>
+                     <l>To puniſh or reward.</l>
+                  </lg>
+                  <lg>
+                     <l n="9">9. His kindneſs is a ſure defence</l>
+                     <l>Againſt oppreſſing rage;</l>
+                     <l>As troubles riſe, his needful aids</l>
+                     <l>In our behalf engage.</l>
+                  </lg>
+                  <lg>
+                     <l n="10">10. All thoſe who have his Goodneſs prov'd</l>
+                     <l>Will in his Truth confide;</l>
+                     <l>Whoſe mercy ne'er forſook the man</l>
+                     <l>That on his help rely'd.</l>
+                  </lg>
+                  <lg>
+                     <pb n="22" facs="tcp:99430:13"/>
+                     <l n="11">11. Sing Praiſes therefore to the Lord,</l>
+                     <l>From <hi>Sion</hi> his abode;</l>
+                     <l>Proclaim his Deeds, till all the world</l>
+                     <l>Confeſs no other God.</l>
+                  </lg>
+               </div>
+               <div n="2" type="part">
+                  <head>PART II.</head>
+                  <lg>
+                     <l n="12">12. When he enquiry makes for blood,</l>
+                     <l>He'll call their guilt to mind;</l>
+                     <l>The injur'd humble man's complaint</l>
+                     <l>Relief from him ſhall find.</l>
+                  </lg>
+                  <lg>
+                     <l n="13">13. Compaſſion on my troubles take,</l>
+                     <l>That ſpiteful Foes create,</l>
+                     <l>Thou, that haſt reſcu'd me ſo oft</l>
+                     <l>From deaths devouring gate.</l>
+                  </lg>
+                  <lg>
+                     <l n="14">14. In <hi>Sion</hi> then I'll ſing thy Praiſe,</l>
+                     <l>To all that love thy Name;</l>
+                     <l>And with loud ſhouts of grateful joy</l>
+                     <l>Thy ſaving Pow'r proclaim.</l>
+                  </lg>
+                  <lg>
+                     <pb n="23" facs="tcp:99430:13"/>
+                     <l n="15">15. Deep in the pit they digg'd for me,</l>
+                     <l>The heathen pride is laid;</l>
+                     <l>Their guilty feet to their own ſnare</l>
+                     <l>Inſenſibly betray'd.</l>
+                  </lg>
+                  <lg>
+                     <l n="16">16. Thus by the juſt returns he makes</l>
+                     <l>The mighty Lord is known;</l>
+                     <l>While wicked Men by their own plots</l>
+                     <l>Are ſhamefully o'erthrown.</l>
+                  </lg>
+                  <lg>
+                     <l n="17">17. His injur'd Saints, when moſt diſtreſt,</l>
+                     <l>He ne'er forgets to aid;</l>
+                     <l>Their expectation ſhall be crown'd,</l>
+                     <l>Tho for a time delay'd.</l>
+                  </lg>
+                  <lg>
+                     <l n="18">18. No ſingle Sinner ſhall eſcape,</l>
+                     <l>By privacy obſcur'd;</l>
+                     <l>Nor Nations from his juſt Revenge</l>
+                     <l>By numbers be ſecur'd.</l>
+                  </lg>
+                  <lg>
+                     <l n="19">19. Ariſe, O Lord, aſſert thy pow'r,</l>
+                     <l>And let not man o'ercome;</l>
+                     <l>Deſcend to Judgement, and pronounce</l>
+                     <l>The guilty Heathens doom.</l>
+                  </lg>
+                  <lg>
+                     <pb n="24" facs="tcp:99430:14"/>
+                     <l n="20">20. Strike terrour through the Nations round,</l>
+                     <l>Till by conſenting fear,</l>
+                     <l>They, to each other and themſelves,</l>
+                     <l>But mortal Men appear.</l>
+                  </lg>
+               </div>
+            </div>
+            <div n="10" type="Psalm">
+               <pb n="25" facs="tcp:99430:14"/>
+               <head>PSALM <hi>X.</hi>
+               </head>
+               <div n="1" type="part">
+                  <lg>
+                     <l n="1">1. THy preſence why withdraw'ſt thou, Lord?</l>
+                     <l>Why hid'ſt thou now thy Face?</l>
+                     <l>When diſmal Times of deep diſtreſs</l>
+                     <l>Call for thy wonted Grace.</l>
+                  </lg>
+                  <lg>
+                     <l n="2">2. The wicked, ſwell'd with lawleſs pride,</l>
+                     <l>Have made the poor their prey:</l>
+                     <l>O! let them fall by thoſe deſigns</l>
+                     <l>Which they for others lay.</l>
+                  </lg>
+                  <lg>
+                     <l n="3">3. For ſtrait they triumph, if ſucceſs</l>
+                     <l>Their thriving crimes attend;</l>
+                     <l>And ſordid wretches, whom God hates,</l>
+                     <l>In his deſpite commend.</l>
+                  </lg>
+                  <lg>
+                     <l n="4">4. To own a pow'r above themſelves</l>
+                     <l>Their haughty pride diſdains;</l>
+                     <l>And therefore in their ſtubborn mind</l>
+                     <l>No thought of God remains.</l>
+                  </lg>
+                  <lg>
+                     <pb n="26" facs="tcp:99430:15"/>
+                     <l n="5">5. Oppreſſive methods they purſue,</l>
+                     <l>And all their Foes they ſlight;</l>
+                     <l>Becauſe thy Judgments unobſerv'd</l>
+                     <l>Are far above their ſight.</l>
+                  </lg>
+                  <lg>
+                     <l n="6">6. They fondly think, their proſp'rous ſtate</l>
+                     <l>Shall unmoleſted be;</l>
+                     <l>They think their vain deſigns ſhall thrive,</l>
+                     <l>From all misfortunes free.</l>
+                  </lg>
+                  <lg>
+                     <l n="7">7. Vain and deceitful is their Speech,</l>
+                     <l>With curſes fill'd and lies;</l>
+                     <l>By which the miſchief they intend,</l>
+                     <l>They ſtudy to diſguiſe.</l>
+                  </lg>
+                  <lg>
+                     <l n="8">8. Near publick Roads they lie conceal'd,</l>
+                     <l>And all their art employ,</l>
+                     <l>The innocent and poor at once</l>
+                     <l>To rifle and deſtroy.</l>
+                  </lg>
+                  <lg>
+                     <l n="9">9. Not Lions, couchant in their dens,</l>
+                     <l>Surpriſe their heedleſs prey</l>
+                     <l>With greater cunning, or expreſs</l>
+                     <l>More ſavage rage, than they.</l>
+                  </lg>
+                  <lg>
+                     <pb n="27" facs="tcp:99430:15"/>
+                     <l n="10">10. Sometimes they act the harmleſs man,</l>
+                     <l>And humble looks they wear;</l>
+                     <l>That ſo deceiv'd, the poor may leſs</l>
+                     <l>Their ſudden onſet fear.</l>
+                  </lg>
+               </div>
+               <div n="2" type="part">
+                  <head>PART II.</head>
+                  <lg>
+                     <l n="11">11. For God, they think, no notice takes</l>
+                     <l>Of their unrighteous Deeds;</l>
+                     <l>He never minds the ſuffering poor,</l>
+                     <l>Nor their oppreſſion heeds.</l>
+                  </lg>
+                  <lg>
+                     <l n="12">12. But Thou, O Lord, at length ariſe;</l>
+                     <l>Stretch forth thy mighty Arm;</l>
+                     <l>And by the greatneſs of thy Pow'r</l>
+                     <l>Defend the poor from harm.</l>
+                  </lg>
+                  <lg>
+                     <l n="13">13. No longer let the wicked vaunt.</l>
+                     <l>And proudly boaſting ſay,</l>
+                     <l>"Tuſh, God regards not what we do,</l>
+                     <l>"He never will repay.</l>
+                  </lg>
+                  <lg>
+                     <pb n="28" facs="tcp:99430:16"/>
+                     <l n="14">14. But ſure thou ſee'ſt, and all their deeds</l>
+                     <l>Impartially ſhalt try;</l>
+                     <l>The Orphan therefore and the Poor</l>
+                     <l>To thee for ſuccour fly.</l>
+                  </lg>
+                  <lg>
+                     <l n="15">15. Defenceleſs let the wicked fall,</l>
+                     <l>Of all their ſtrength bereft:</l>
+                     <l>Deſtroy, O God, their vile deſigns,</l>
+                     <l>Till none of them be left.</l>
+                  </lg>
+                  <lg>
+                     <l n="16">16. Aſſert thy juſt Dominion, Lord,</l>
+                     <l>Which ſhall for ever ſtand;</l>
+                     <l>Through which the Heathen were expell'd</l>
+                     <l>From this thy choſen Land.</l>
+                  </lg>
+                  <lg>
+                     <l n="17">17. Thy humble ſuppliants ſtill thou hear'ſt</l>
+                     <l>That to thy Throne repair;</l>
+                     <l>Thou firſt prepar'ſt their hearts to pray,</l>
+                     <l>And then accept'ſt their pray'r.</l>
+                  </lg>
+                  <lg>
+                     <l n="18">18. Thou in thy righteous Judgment weigh'ſt</l>
+                     <l>The Fatherleſs and Poor;</l>
+                     <l>That ſo the Tyrants of the earth</l>
+                     <l>May perſecute no more.</l>
+                  </lg>
+               </div>
+            </div>
+            <div n="11" type="Psalm">
+               <pb n="29" facs="tcp:99430:16"/>
+               <head>PSALM <hi>XI.</hi>
+               </head>
+               <lg>
+                  <l n="1">1. SInce I in God have plac'd my truſt,</l>
+                  <l>A refuge always nigh,</l>
+                  <l>Why ſhould I, like a tim'rous Bird,</l>
+                  <l>To diſtant mountains fly?</l>
+               </lg>
+               <lg>
+                  <l n="2">2. Behold, the wicked bend their bow,</l>
+                  <l>And ready fix their dart;</l>
+                  <l>Lurking in ambuſh, to deſtroy</l>
+                  <l>The man of upright heart.</l>
+               </lg>
+               <lg>
+                  <l n="3">3. When once the firm aſſurance fails</l>
+                  <l>Which publick Faith imparts,</l>
+                  <l>'Tis time for innocence to fly,</l>
+                  <l>From ſuch deceitful arts.</l>
+               </lg>
+               <lg>
+                  <l n="4">4. The Lord has both a Temple here,</l>
+                  <l>And righteous Throne above;</l>
+                  <l>Whence he ſurveys the Sons of Men,</l>
+                  <l>And how their counſels move.</l>
+               </lg>
+               <lg>
+                  <pb n="30" facs="tcp:99430:17"/>
+                  <l n="5">5. If God, the Righteous whom he loves,</l>
+                  <l>For tryal does correct;</l>
+                  <l>What muſt the Sons of violence,</l>
+                  <l>Whom he abhors, expect?</l>
+               </lg>
+               <lg>
+                  <l n="6">6. Snares, fire, and brimſtone, on their heads</l>
+                  <l>Shall in one tempeſt ſhow'r;</l>
+                  <l>This dreadful mixture his revenge</l>
+                  <l>Into their cup ſhall pour.</l>
+               </lg>
+               <lg>
+                  <l n="7">7. The righteous Lord will righteous Deeds</l>
+                  <l>With ſignal favour grace;</l>
+                  <l>And on the upright man reflect</l>
+                  <l>The brightneſs of his face.</l>
+               </lg>
+            </div>
+            <div n="12" type="Psalm">
+               <pb n="31" facs="tcp:99430:17"/>
+               <head>PSALM <hi>XII.</hi>
+               </head>
+               <lg>
+                  <l n="1">1. SInce godly men decay, O Lord,</l>
+                  <l>Do thou my cauſe defend;</l>
+                  <l>For ſcarce theſe wretched times afford</l>
+                  <l>One juſt and faithful Friend.</l>
+               </lg>
+               <lg>
+                  <l n="2">2. One Neighbour now can ſcarce believe</l>
+                  <l>What t'other does impart;</l>
+                  <l>With flatt'ring lips they all deceive,</l>
+                  <l>And with a double heart</l>
+               </lg>
+               <lg>
+                  <l n="3">3. But lips that with deceit abound</l>
+                  <l>Shall never proſper long;</l>
+                  <l>God's Righteous Vengeance will confound</l>
+                  <l>The proud blaſpheming Tongue.</l>
+               </lg>
+               <lg>
+                  <l n="4">4. In vain thoſe fooliſh boaſters ſay,</l>
+                  <l>"Our tongues are ſure our own;</l>
+                  <l>"With doubtful words we'll ſtill betray,</l>
+                  <l>"And be controul'd by none.</l>
+               </lg>
+               <lg>
+                  <pb n="32" facs="tcp:99430:18"/>
+                  <l n="5">5. For God, who hears the poor oppreſt,</l>
+                  <l>And all their ſufferings knows,</l>
+                  <l>Will ſoon ariſe, and give them reſt,</l>
+                  <l>In ſpite of all their Foes.</l>
+               </lg>
+               <lg>
+                  <l n="6">6. The word of God ſhall ſtill abide,</l>
+                  <l>And void of falſhood be;</l>
+                  <l>As is the ſilver, ſev'n-times try'd,</l>
+                  <l>From droſly mixture free.</l>
+               </lg>
+               <lg>
+                  <l n="7">7. The promiſe of his aiding Grace</l>
+                  <l>Shall reach its purpos'd end;</l>
+                  <l>His Servants from this faithleſs Race</l>
+                  <l>He ever ſhall defend.</l>
+               </lg>
+               <lg>
+                  <l n="8">8. Then ſhall the wicked be perplex'd,</l>
+                  <l>Nor know which way to fly;</l>
+                  <l>When thoſe, whom they deſpis'd and vex'd,</l>
+                  <l>Shall be advanc'd on high.</l>
+               </lg>
+            </div>
+            <div n="13" type="Psalm">
+               <pb n="33" facs="tcp:99430:18"/>
+               <head>PSALM <hi>XIII.</hi>
+               </head>
+               <lg>
+                  <l n="1">1. HOW long wilt thou forget me, Lord?</l>
+                  <l>Muſt I for ever mourn?</l>
+                  <l>How long wilt thou withdraw from me?</l>
+                  <l>Oh! never to return!</l>
+               </lg>
+               <lg>
+                  <l n="2">2. How long ſhall anxious thoughts my ſoul,</l>
+                  <l>And grief my heart oppreſs?</l>
+                  <l>How long my enemies inſult,</l>
+                  <l>And I have no redreſs?</l>
+               </lg>
+               <lg>
+                  <l n="3">3. O hear! and to my longing eyes</l>
+                  <l>Reſtore thy wonted light;</l>
+                  <l>And ſuddenly, or I ſhall ſleep</l>
+                  <l>In everlaſting night.</l>
+               </lg>
+               <lg>
+                  <l n="4">4. Reſtore me, leſt they proudly boaſt</l>
+                  <l>'Twas their own ſtrength o'ercame;</l>
+                  <l>Permit not them that vex my ſoul</l>
+                  <l>To triumph in my ſhame.</l>
+               </lg>
+               <lg>
+                  <pb n="34" facs="tcp:99430:19"/>
+                  <l n="5">5. Surely, as I have plac'd my truſt</l>
+                  <l>Beneath thy mercies wing,</l>
+                  <l>E're long, when thy ſalvation comes,</l>
+                  <l>My heart with joy ſhall ſpring.</l>
+               </lg>
+               <lg>
+                  <l n="6">6. Then ſhall my ſong, with praiſe inſpir'd,</l>
+                  <l>To thee my God aſcend;</l>
+                  <l>Who to thy ſervant in diſtreſs</l>
+                  <l>Such bounty didſt extend.</l>
+               </lg>
+            </div>
+            <div n="14" type="Psalm">
+               <pb n="35" facs="tcp:99430:19"/>
+               <head>PSALM <hi>XIV.</hi>
+               </head>
+               <lg>
+                  <l n="1">1. THE wicked Fools muſt ſure ſuppoſe</l>
+                  <l>That God is nothing but a name;</l>
+                  <l>This their corrupt lewd practiſe ſhews,</l>
+                  <l>Since righteous Acts they all diſclaim.</l>
+               </lg>
+               <lg>
+                  <l n="2">2. The Lord look'd down from Heav'ns high tow'r,</l>
+                  <l>And did the race of mankind view;</l>
+                  <l>To ſee, if any own'd his pow'r,</l>
+                  <l>If any, Truth or Juſtice knew.</l>
+               </lg>
+               <lg>
+                  <l n="3">3. But all, he ſaw, were gone aſide,</l>
+                  <l>All were degen'rate grown and baſe;</l>
+                  <l>None took Religion for their guide,</l>
+                  <l>Not one of all the ſinful Race.</l>
+               </lg>
+               <lg>
+                  <l n="4">4. But can theſe workers of deceit</l>
+                  <l>Be all ſo dull and ſenſleſs grown?</l>
+                  <l>That they, like bread, my people eat,</l>
+                  <l>And God's Almighty Pow'r diſown?</l>
+               </lg>
+               <lg>
+                  <pb n="36" facs="tcp:99430:20"/>
+                  <l n="5">5. How will they tremble then for fear,</l>
+                  <l>When his juſt Wrath ſhall them o'ertake?</l>
+                  <l>For to the righteous God is near,</l>
+                  <l>And never will their cauſe forſake.</l>
+               </lg>
+               <lg>
+                  <l n="6">6. In vain ungodly Men condemn</l>
+                  <l>Thoſe counſels which the Juſt purſue;</l>
+                  <l>Since God a refuge is for them</l>
+                  <l>Whom his juſt Eyes with favour view.</l>
+               </lg>
+               <lg>
+                  <l n="7">7. Would he his ſaving Pow'r employ,</l>
+                  <l>To break his peoples ſervile band!</l>
+                  <l>Then ſhouts of univerſal joy</l>
+                  <l>Should loudly eccho through the Land.</l>
+               </lg>
+            </div>
+            <div n="15" type="Psalm">
+               <pb n="37" facs="tcp:99430:20"/>
+               <head>PSALM <hi>XV.</hi>
+               </head>
+               <lg>
+                  <l n="1">1. LOrd, who's the happy man, that may</l>
+                  <l>To thy bleſt Courts repair?</l>
+                  <l>Not, ſtranger-like, to viſit them,</l>
+                  <l>But to inhabit there?</l>
+               </lg>
+               <lg>
+                  <l n="2">2. 'Tis he, whoſe ev'ry thought and deed</l>
+                  <l>By rules of virtue moves;</l>
+                  <l>Whoſe gen'rous Tongue diſdains to ſpeak</l>
+                  <l>The thing his heart diſproves.</l>
+               </lg>
+               <lg>
+                  <l n="3">3. Who never did a ſlander forge,</l>
+                  <l>His neighbours fame to wound;</l>
+                  <l>Nor hearkens to a falſe Report,</l>
+                  <l>By malice whiſper'd round.</l>
+               </lg>
+               <lg>
+                  <l n="4">4. Who Vice, in all its pomp and pow'r,</l>
+                  <l>Can treat with juſt neglect;</l>
+                  <l>And piety, tho cloath'd in rags,</l>
+                  <l>Religiouſly reſpect.</l>
+               </lg>
+               <lg>
+                  <pb n="38" facs="tcp:99430:21"/>
+                  <l>Who to his plighted vows and truſt</l>
+                  <l>Has ever firmly ſtood;</l>
+                  <l>And tho he promiſe to his loſs,</l>
+                  <l>He makes his promiſe good.</l>
+               </lg>
+               <lg>
+                  <l n="5">5. Whoſe ſoul in uſury diſdains</l>
+                  <l>His treaſure to employ;</l>
+                  <l>Whom no rewards could ever bribe,</l>
+                  <l>The guiltleſs to deſtroy.</l>
+               </lg>
+               <lg>
+                  <l>The man, who by this ſteady courſe</l>
+                  <l>Has happineſs enſur'd;</l>
+                  <l>When earths foundations ſhake, ſhall ſtand,</l>
+                  <l>By providence ſecur'd.</l>
+               </lg>
+            </div>
+            <div n="16" type="Psalm">
+               <pb n="39" facs="tcp:99430:21"/>
+               <head>PSALM <hi>XVI.</hi>
+               </head>
+               <lg>
+                  <l n="1">1. PRotect me from my cruel Foes,</l>
+                  <l>And ſhield me, Lord, from harm;</l>
+                  <l>Becauſe my truſt I ſtill repoſe</l>
+                  <l>On thy Almighty Arm.</l>
+               </lg>
+               <lg>
+                  <l n="2">2. My ſoul all help but thine does ſlight,</l>
+                  <l>All Gods but thee diſown;</l>
+                  <l>Yet can no deeds of mine requite</l>
+                  <l>The goodneſs thou haſt ſhown.</l>
+               </lg>
+               <lg>
+                  <l n="3">3. But thoſe that are of virtuous Note,</l>
+                  <l>Who love the thing that's right,</l>
+                  <l>To favour always and promote,</l>
+                  <l>Shall be my chief delight.</l>
+               </lg>
+               <lg>
+                  <l n="4">4. How ſhall their ſorrows be increas'd,</l>
+                  <l>Who other Gods adore?</l>
+                  <l>Their bloody offerings I deteſt,</l>
+                  <l>Their very names abhor.</l>
+               </lg>
+               <lg>
+                  <pb n="40" facs="tcp:99430:22"/>
+                  <l n="5">5. My lot is fal'n in that bleſt Land</l>
+                  <l>Where God is purely ſerv'd;</l>
+                  <l>He fills my cup with lib'ral hand;</l>
+                  <l>My right's by him preſerv'd.</l>
+               </lg>
+               <lg>
+                  <l n="6">6. In natures moſt delightful ſcene</l>
+                  <l>My happy portion lies;</l>
+                  <l>The place of my appointed reign</l>
+                  <l>All other Lands outvies.</l>
+               </lg>
+               <lg>
+                  <l n="7">7. Therefore my ſoul ſhall bleſs the Lord,</l>
+                  <l>Whoſe Word's my guide and light;</l>
+                  <l>Who private counſel does afford,</l>
+                  <l>In dark affliction's night.</l>
+               </lg>
+               <lg>
+                  <l n="8">8. Nothing, I know, can lie conceal'd</l>
+                  <l>From his All-ſeeing Eye;</l>
+                  <l>And my firm hope has never fail'd,</l>
+                  <l>Becauſe he ſtill is nigh.</l>
+               </lg>
+               <lg>
+                  <l n="9">9. Therefore my heart all grief defies,</l>
+                  <l>My glory does rejoyce;</l>
+                  <l>My fleſh ſhall reſt, in hope to riſe,</l>
+                  <l>Wak'd by his pow'rful voice.</l>
+               </lg>
+               <lg>
+                  <pb n="41" facs="tcp:99430:22"/>
+                  <l n="10">10. Thou, Lord, when I reſign my breath,</l>
+                  <l>My ſoul from hell wilt free;</l>
+                  <l>Nor let thy Holy One in death</l>
+                  <l>The leaſt corruption ſee.</l>
+               </lg>
+               <lg>
+                  <l n="11">11. Thou ſhalt the paths of Life diſplay,</l>
+                  <l>Which to thy preſence lead;</l>
+                  <l>Where pleaſures dwell without allay,</l>
+                  <l>And joys that never fade.</l>
+               </lg>
+            </div>
+            <div n="17" type="Psalm">
+               <pb n="42" facs="tcp:99430:23"/>
+               <head>PSALM <hi>XVII.</hi>
+               </head>
+               <div n="1" type="part">
+                  <lg>
+                     <l n="1">1. HEar my juſt plea, to my complaint</l>
+                     <l>Attend, O Righteous Lord!</l>
+                     <l>And to my pray'r, as 'tis unfeign'd,</l>
+                     <l>A gracious Ear afford.</l>
+                  </lg>
+                  <lg>
+                     <l n="2">2. As in thy preſence I'm approv'd,</l>
+                     <l>So let my ſentence be;</l>
+                     <l>And with impartial Eyes, O Lord,</l>
+                     <l>My upright dealing ſee.</l>
+                  </lg>
+                  <lg>
+                     <l n="3">3. For thou haſt prov'd my heart by day,</l>
+                     <l>And viſited by night;</l>
+                     <l>And on the ſtricteſt tryal found</l>
+                     <l>Its ſecret motions right.</l>
+                  </lg>
+                  <lg>
+                     <l>Nor ſhall thy Juſtice, Lord, alone</l>
+                     <l>My hearts deſigns acquit;</l>
+                     <l>For I have purpos'd, that my Tongue</l>
+                     <l>Shall no offence commit.</l>
+                  </lg>
+                  <lg>
+                     <pb n="43" facs="tcp:99430:23"/>
+                     <l n="4">4. I know, what wicked men would do,</l>
+                     <l>Their ſafety to maintain;</l>
+                     <l>But me thy juſt and mild commands</l>
+                     <l>From bloody Paths reſtrain.</l>
+                  </lg>
+                  <lg>
+                     <l n="5">5. That I may ſtill, in ſpite of wrongs,</l>
+                     <l>My innocence ſecure;</l>
+                     <l>O! Guide me in thy Righteous Ways,</l>
+                     <l>And make my footſteps ſure.</l>
+                  </lg>
+                  <lg>
+                     <l n="6">6. Since heretofore I ne'er in vain</l>
+                     <l>To thee my pray'r addreſs'd;</l>
+                     <l>O! now, my God, incline thine Ear</l>
+                     <l>To this my juſt requeſt.</l>
+                  </lg>
+                  <lg>
+                     <l n="7">7. The wonders of thy love and care</l>
+                     <l>In my defence engage,</l>
+                     <l>Thou, whoſe right Hand preſerves thy Saints</l>
+                     <l>From their oppreſſors rage.</l>
+                  </lg>
+               </div>
+               <div n="2" type="part">
+                  <pb n="44" facs="tcp:99430:24"/>
+                  <head>PART II.</head>
+                  <lg>
+                     <l n="8">8, 9. O! keep me in thy tend'reſt care,</l>
+                     <l>With ſhelt'ring wings ſtretch'd out,</l>
+                     <l>From cruel and oppreſſing Foes,</l>
+                     <l>That compaſs me about.</l>
+                  </lg>
+                  <lg>
+                     <l n="10">10. O'ergrown with luxury, enclos'd</l>
+                     <l>In their own fat they lie;</l>
+                     <l>And with a proud blaſpheming Mouth</l>
+                     <l>Both God and Man defie.</l>
+                  </lg>
+                  <lg>
+                     <l n="11">11. Well, may they boaſt; for they have now</l>
+                     <l>My path encompaſs'd round;</l>
+                     <l>Their eyes at watch, their bodies bow'd,</l>
+                     <l>And couching to the ground.</l>
+                  </lg>
+                  <lg>
+                     <l n="12">12. In poſture of a Lion ſet,</l>
+                     <l>When greedy of his prey;</l>
+                     <l>Or a young Lion, when he lurks</l>
+                     <l>Within a covert way.</l>
+                  </lg>
+                  <lg>
+                     <pb n="45" facs="tcp:99430:24"/>
+                     <l n="13">13. Ariſe, O Lord, defeat their plots,</l>
+                     <l>Their ſwelling rage controul;</l>
+                     <l>From the ungodly man, thy Sword,</l>
+                     <l>Deliver thou my Soul.</l>
+                  </lg>
+                  <lg>
+                     <l n="14">14. From worldly Men, thy ſharpeſt ſcourge,</l>
+                     <l>Whoſe portion's here below;</l>
+                     <l>Who, fill'd with earthly ſtores, aſpire</l>
+                     <l>No other bliſs to know;</l>
+                  </lg>
+                  <lg>
+                     <l n="15">15. Pleas'd with a num'rous Race, to ſhare</l>
+                     <l>Their ſubſtance while they live;</l>
+                     <l>Succeſſive heirs, to whom they may</l>
+                     <l>The vaſt remainder give.</l>
+                  </lg>
+                  <lg>
+                     <l n="16">16. But, Lord, for me, I only crave</l>
+                     <l>The treaſure of thy Grace;</l>
+                     <l>And waking in my Soul to find</l>
+                     <l>The Image of thy Face.</l>
+                  </lg>
+               </div>
+            </div>
+            <div n="18" type="Psalm">
+               <pb n="46" facs="tcp:99430:25"/>
+               <head>PSALM <hi>XVIII.</hi>
+               </head>
+               <div n="1" type="part">
+                  <lg>
+                     <l n="1">1, 2. NO change of times ſhall ever ſhock</l>
+                     <l>My firm affection, Lord, to Thee:</l>
+                     <l>For thou haſt always been a rock,</l>
+                     <l>A fortreſs, and defence to me.</l>
+                  </lg>
+                  <lg>
+                     <l>Thou my deliv'rer art, my God;</l>
+                     <l>My truſt is in thy mighty Pow'r;</l>
+                     <l>Thou art my ſhield from foes abroad,</l>
+                     <l>At home my ſafeguard, and my tow'r.</l>
+                  </lg>
+                  <lg>
+                     <l n="3">3. To thee I'll ſtill addreſs my pray'r,</l>
+                     <l>To whom my praiſe I juſtly owe;</l>
+                     <l>So ſhall I, by thy watchful care,</l>
+                     <l>Be guarded from my treach'rous Foe.</l>
+                  </lg>
+                  <lg>
+                     <l n="4">4, 5. By floods of wicked Men diſtreſs'd,</l>
+                     <l>With deadly ſorrows compaſs'd round,</l>
+                     <l>With dire infernal Pangs oppreſs'd,</l>
+                     <l>In deaths unwieldy fetters bound.</l>
+                  </lg>
+                  <lg>
+                     <pb n="47" facs="tcp:99430:25"/>
+                     <l n="6">6. To Heav'n I make my mournful pray'r,</l>
+                     <l>To God addreſs my humble moan;</l>
+                     <l>Who graciouſly inclines his Ear,</l>
+                     <l>And hears me from his lofty Throne.</l>
+                  </lg>
+               </div>
+               <div n="2" type="part">
+                  <head>PART II.</head>
+                  <lg>
+                     <l n="7">7. When God aroſe to take my part,</l>
+                     <l>The trembling Earth did quake for fear;</l>
+                     <l>From their firm poſts the Hills did ſtart,</l>
+                     <l>Nor durſt his dreadful fury bear.</l>
+                  </lg>
+                  <lg>
+                     <l n="8">8. Thick clouds of ſmoak, diſperſt abroad,</l>
+                     <l>Enſigns of wrath, before him came;</l>
+                     <l>Devouring fire around him glow'd,</l>
+                     <l>That coals were kindled at its flame.</l>
+                  </lg>
+                  <lg>
+                     <l n="9">9. He left the beauteous Realms of Light,</l>
+                     <l>Whilſt Heav'n bow'd down its awful head;</l>
+                     <l>Beneath his feet, ſubſtantial Night</l>
+                     <l>Was, like a ſable carpet, ſpread.</l>
+                  </lg>
+                  <lg>
+                     <l n="10">10. The Chariot of the King of Kings,</l>
+                     <l>Which troops of harneſs'd Angels drew,</l>
+                     <l>On a ſtrong tempeſt's rapid wings</l>
+                     <l>With moſt amazing ſwiftneſs flew.</l>
+                  </lg>
+                  <lg>
+                     <pb n="48" facs="tcp:99430:26"/>
+                     <l n="11">11, 12. Black watry miſts and clouds conſpir'd</l>
+                     <l>With thickeſt ſhades his face to veil;</l>
+                     <l>But at his brightneſs ſoon retir'd,</l>
+                     <l>And fell in ſhow'rs of fire and hail.</l>
+                  </lg>
+                  <lg>
+                     <l n="13">13. Thro' Heav'ns wide Arch a thund'ring peal</l>
+                     <l>Gods angry voice, did loudly roar;</l>
+                     <l>While earths ſad face, with heaps of hail</l>
+                     <l>And flakes of fire, was cover'd o'er.</l>
+                  </lg>
+                  <lg>
+                     <l n="14">14. His ſharpen'd arrows round he threw,</l>
+                     <l>Which made his ſcatter'd foes retreat;</l>
+                     <l>Like darts, his nimble Light'nings flew,</l>
+                     <l>And quickly finiſh'd their defeat.</l>
+                  </lg>
+                  <lg>
+                     <l n="15">15. The deep its ſecret ſtores diſclos'd;</l>
+                     <l>The worlds Foundations naked lay;</l>
+                     <l>By his avenging Wrath expos'd,</l>
+                     <l>Which fiercely rag'd, that dreadful day.</l>
+                  </lg>
+               </div>
+               <div n="3" type="part">
+                  <head>PART III.</head>
+                  <lg>
+                     <l n="16">16. The Lord did on my ſide engage,</l>
+                     <l>From Heav'n, his Throne, my cauſe upheld;</l>
+                     <l>And ſnatch'd me from the furious rage</l>
+                     <l>Of threat'ning waves that proudly ſwell'd.</l>
+                  </lg>
+                  <lg>
+                     <pb n="49" facs="tcp:99430:26"/>
+                     <l n="17">17. God his reſiſtleſs Pow'r employ'd,</l>
+                     <l>My ſtrongeſt Foes attempts to break;</l>
+                     <l>Who elſe with eaſe had ſoon deſtroy'd</l>
+                     <l>The weak defence that I could make.</l>
+                  </lg>
+                  <lg>
+                     <l n="18">18. Their ſubtle rage had near prevail'd,</l>
+                     <l>When I diſtreſs'd and friendleſs lay;</l>
+                     <l>But ſtill, when other ſuccours fail'd,</l>
+                     <l>God was my firm ſupport and ſtay.</l>
+                  </lg>
+                  <lg>
+                     <l n="19">19. From dangers, that enclos'd me round,</l>
+                     <l>He brought me forth, and ſet me free;</l>
+                     <l>For ſome juſt cauſe his goodneſs found,</l>
+                     <l>That mov'd him to delight in me.</l>
+                  </lg>
+                  <lg>
+                     <l n="20">20. Becauſe in me no guilt remains,</l>
+                     <l>God does his gracious help extend;</l>
+                     <l>My hands are free from bloody ſtains,</l>
+                     <l>Therefore the Lord is ſtill my Friend.</l>
+                  </lg>
+                  <lg>
+                     <l n="21">21, 22. For I his Judgments kept in ſight;</l>
+                     <l>In his juſt Ways I always trod;</l>
+                     <l>I never did his Statutes ſlight,</l>
+                     <l>Nor vainly wander'd from my God.</l>
+                  </lg>
+                  <lg>
+                     <pb n="50" facs="tcp:99430:27"/>
+                     <l n="23">23, 24. But ſtill my Soul ſincere and pure,</l>
+                     <l>Did ev'n from darling ſins refrain;</l>
+                     <l>His favours therefore yet endure,</l>
+                     <l>Becauſe my heart and hands are clean.</l>
+                  </lg>
+               </div>
+               <div n="4" type="part">
+                  <head>PART IV.</head>
+                  <lg>
+                     <l n="25">25, 26. Thou ſuit'ſt, O Lord, thy righteous Ways</l>
+                     <l>To various paths of human kind;</l>
+                     <l>They who for mercy merit praiſe,</l>
+                     <l>With thee ſhall wond'rous mercy find.</l>
+                  </lg>
+                  <lg>
+                     <l>Thou to the Juſt ſhalt Juſtice ſhew.</l>
+                     <l>Thy purity the pure ſhall ſee;</l>
+                     <l>Such as perverſly chuſe to go,</l>
+                     <l>Shall meet perverſe returns from thee.</l>
+                  </lg>
+                  <lg>
+                     <l n="27">27, 28. That he the humble Soul will ſave,</l>
+                     <l>And cruſh the haughty's boaſted might.</l>
+                     <l>In me the Lord an inſtance gave,</l>
+                     <l>Whoſe darkneſs he has turn'd to light.</l>
+                  </lg>
+                  <lg>
+                     <l n="29">29. On his firm ſuccour I rely'd,</l>
+                     <l>And did o'er num'rous Foes prevail;</l>
+                     <l>Nor fear'd, whilſt he was on my ſide,</l>
+                     <l>The beſt defended walls to ſcale.</l>
+                  </lg>
+                  <lg>
+                     <pb n="51" facs="tcp:99430:27"/>
+                     <l n="30">30. For Gods deſigns ſhall ſtill ſucceed;</l>
+                     <l>His Word will bear the ſtricteſt Teſt;</l>
+                     <l>He's a ſtrong ſhield to all that need,</l>
+                     <l>And on his ſure protection reſt.</l>
+                  </lg>
+                  <lg>
+                     <l n="31">31. Who then deſerves to be ador'd,</l>
+                     <l>But God, on whom my hopes depend?</l>
+                     <l>Or who, except the mighty Lord,</l>
+                     <l>Can with reſiſtleſs pow'r defend?</l>
+                  </lg>
+               </div>
+               <div n="5" type="part">
+                  <head>PART V.</head>
+                  <lg>
+                     <l n="32">32, 33. 'Tis God that girds my armour on,</l>
+                     <l>And all my juſt deſigns fulfils;</l>
+                     <l>Through him my feet can ſwiftly run,</l>
+                     <l>And nimbly climb the ſteepeſt hills.</l>
+                  </lg>
+                  <lg>
+                     <l n="34">34. Leſſons of war from him I take,</l>
+                     <l>And manly weapons learn to wield;</l>
+                     <l>Strong bows of ſteel with eaſe I break,</l>
+                     <l>Forc'd to my ſtronger Arms to yield.</l>
+                  </lg>
+                  <lg>
+                     <l n="35">35. The buckler of his ſaving health</l>
+                     <l>Protects me from aſſaulting foes;</l>
+                     <l>His hand ſuſtains me ſtill; my wealth</l>
+                     <l>And greatneſs from his bounty flows.</l>
+                  </lg>
+                  <lg>
+                     <pb n="52" facs="tcp:99430:28"/>
+                     <l n="36">36. My goings he enlarg'd abroad,</l>
+                     <l>Before to narrow paths confin'd;</l>
+                     <l>And when in ſlipp'ry ways I trod,</l>
+                     <l>The method of my ſteps deſign'd.</l>
+                  </lg>
+                  <lg>
+                     <l n="37">37. Through him I num'rous Foes defeat,</l>
+                     <l>And in their haſty flight o'ertake;</l>
+                     <l>Nor from my fierce purſuit retreat,</l>
+                     <l>Till a full end of all I make.</l>
+                  </lg>
+                  <lg>
+                     <l n="38">38. Cover'd with wounds, in vain they try</l>
+                     <l>Their vanquiſh'd heads again to rear;</l>
+                     <l>Grov'ling beneath my feet they lie,</l>
+                     <l>From whence to riſe they muſt deſpair.</l>
+                  </lg>
+                  <lg>
+                     <l n="39">39. God, when fierce Armies take the field,</l>
+                     <l>Recruits my ſtrength, and courage warms;</l>
+                     <l>He makes my ſtrong oppoſers yield,</l>
+                     <l>Subdu'd by my prevailing Arms.</l>
+                  </lg>
+                  <lg>
+                     <l n="40">40. Through him, the necks of proſtrate Foes</l>
+                     <l>My conqu'ring feet in triumph preſs;</l>
+                     <l>Aided by him, I root out thoſe</l>
+                     <l>Who hate and envy my ſucceſs.</l>
+                  </lg>
+                  <lg>
+                     <pb n="53" facs="tcp:99430:28"/>
+                     <l n="41">41. With loud complaints all friends they try'd,</l>
+                     <l>But none was able to defend;</l>
+                     <l>At length to God for ſuccour cry'd,</l>
+                     <l>But God wou'd no aſſiſtance lend.</l>
+                  </lg>
+                  <lg>
+                     <l n="42">42. Like flying duſt which winds purſue,</l>
+                     <l>Their broken troops were ſcatter'd round;</l>
+                     <l>Contemptible and vile they grew,</l>
+                     <l>As loathſom dirt that clogs the ground.</l>
+                  </lg>
+               </div>
+               <div n="6" type="part">
+                  <head>PART VI.</head>
+                  <lg>
+                     <l n="43">43. Our factious Tribes, at ſtrife till now,</l>
+                     <l>At Gods appointment me obey;</l>
+                     <l>The Heathen to my Scepter bow,</l>
+                     <l>And Foreign Nations own my ſway.</l>
+                  </lg>
+                  <lg>
+                     <l n="44">44. Remoteſt Realms their homage ſend,</l>
+                     <l>When my ſucceſsful name they hear;</l>
+                     <l>Strangers for my commands attend,</l>
+                     <l>Charm'd with reſpect, or aw'd by fear.</l>
+                  </lg>
+                  <lg>
+                     <l n="45">45. All to my ſummons tamely yield,</l>
+                     <l>Or ſoon in battle are diſmay'd;</l>
+                     <l>For ſtronger Holds they quit the field,</l>
+                     <l>And ſtill in ſtrongeſt Holds afraid.</l>
+                  </lg>
+                  <lg>
+                     <pb n="54" facs="tcp:99430:29"/>
+                     <l n="46">46. Let the Eternal Lord be prais'd!</l>
+                     <l>The Rock on whoſe defence I reſt!</l>
+                     <l>O'er higheſt Heav'ns his Name be rais'd,</l>
+                     <l>Who me with his Salvation bleſs'd!</l>
+                  </lg>
+                  <lg>
+                     <l n="47">47. 'Tis God that ſtill ſupports my right,</l>
+                     <l>His juſt Rovenge my foes purſues;</l>
+                     <l>'Tis he, that with reſiſtleſs Might</l>
+                     <l>Fierce Nations to my yoke ſubdues.</l>
+                  </lg>
+                  <lg>
+                     <l n="48">48. My univerſal ſafeguard, He!</l>
+                     <l>From whom my laſting honours ſlow;</l>
+                     <l>He made me great, and ſet me free</l>
+                     <l>From my remorſeleſs bloody Foe.</l>
+                  </lg>
+                  <lg>
+                     <l n="49">49. Therefore to celebrate his fame</l>
+                     <l>My grateful voice to Heav'n I'll raiſe;</l>
+                     <l>And Nations, ſtrangers to his Name,</l>
+                     <l>Shall thus be taught to ſing his Praiſe;</l>
+                  </lg>
+                  <lg>
+                     <l n="50">50. "God to his King deliv'rance ſends;</l>
+                     <l>"Shews his Anointed ſignal Grace;</l>
+                     <l>"His mercy evermore extends</l>
+                     <l>"To <hi>David,</hi> and his promis'd Race.</l>
+                  </lg>
+               </div>
+            </div>
+            <div n="19" type="Psalm">
+               <pb n="55" facs="tcp:99430:29"/>
+               <head>PSALM <hi>XIX.</hi>
+               </head>
+               <div n="1" type="part">
+                  <lg>
+                     <l n="1">1. THE Heav'ns declare thy Glory, Lord,</l>
+                     <l>Which that alone can fill;</l>
+                     <l>The Firmament and Stars expreſs</l>
+                     <l>Their great Creators skill.</l>
+                  </lg>
+                  <lg>
+                     <l n="2">2. Revolving days, with ev'ry dawn,</l>
+                     <l>Freſh beams of knowledge bring;</l>
+                     <l>From darkeſt nights ſucceſſive rounds</l>
+                     <l>Divine Inſtructions ſpring.</l>
+                  </lg>
+                  <lg>
+                     <l n="3">3. Their pow'rful Language to no Realm</l>
+                     <l>Or Region is confin'd;</l>
+                     <l>'Tis Natures voice, and underſtood</l>
+                     <l>Alike by all Mankind.</l>
+                  </lg>
+                  <lg>
+                     <l n="4">4. Their Doctrines ſacred Senſe itſelf</l>
+                     <l>Through Earths extent diſplays;</l>
+                     <l>Whoſe bright contents the circling Sun</l>
+                     <l>Around the World conveys.</l>
+                  </lg>
+                  <lg>
+                     <pb n="56" facs="tcp:99430:30"/>
+                     <l n="5">5. No Bride-groom, for his Nuptials dreſt,</l>
+                     <l>Has ſuch a chearful face;</l>
+                     <l>No Giant does like him rejoyce</l>
+                     <l>To run his glorious race.</l>
+                  </lg>
+                  <lg>
+                     <l n="6">6. From Eaſt to Weſt, from Weſt to Eaſt,</l>
+                     <l>His reſtleſs circuit goes;</l>
+                     <l>And through his progreſs, chearful light</l>
+                     <l>And vital warmth beſtows.</l>
+                  </lg>
+               </div>
+               <div n="2" type="part">
+                  <head>PART II.</head>
+                  <lg>
+                     <l n="7">7. Gods perfect Law converts the Soul,</l>
+                     <l>Reclaims from falſe deſires;</l>
+                     <l>With ſacred Wiſdom his firm Word</l>
+                     <l>The ignorant inſpires.</l>
+                  </lg>
+                  <lg>
+                     <l n="8">8. The Statutes of the Lord are Juſt,</l>
+                     <l>And bring fincere delight;</l>
+                     <l>His pure commands, in ſearch of Truth,</l>
+                     <l>Aſſiſt the feebleſt ſight.</l>
+                  </lg>
+                  <lg>
+                     <l n="9">9. His fear is clean, his worſhip fix'd</l>
+                     <l>For ever to abide;</l>
+                     <l>His equal Judgments in the ſcale</l>
+                     <l>Of Truth and Juſtice try'd.</l>
+                  </lg>
+                  <lg>
+                     <pb n="57" facs="tcp:99430:30"/>
+                     <l n="10">10. Of more eſteem than golden Mines,</l>
+                     <l>Or Gold refin'd with skill;</l>
+                     <l>More ſweet than honey, or the drops</l>
+                     <l>That from the comb diſtill.</l>
+                  </lg>
+                  <lg>
+                     <l n="11">11. My truſty Counſellors they are,</l>
+                     <l>And friendly warnings give;</l>
+                     <l>Divine Rewards attend on thoſe</l>
+                     <l>Who by thy Precepts live.</l>
+                  </lg>
+                  <lg>
+                     <l n="12">12. But what frail man obſerves, how oft</l>
+                     <l>He does thy Laws tranſgreſs?</l>
+                     <l>Do thou, who only know'ſt them all,</l>
+                     <l>My ſecret faults redreſs.</l>
+                  </lg>
+                  <lg>
+                     <l n="13">13. Let no preſumptuous Sin, O Lord,</l>
+                     <l>Dominion have o'er me;</l>
+                     <l>Preſerve me guiltleſs, or at leaſt</l>
+                     <l>From great offences free.</l>
+                  </lg>
+                  <lg>
+                     <l n="14">14. So ſhall my pray'r and praiſes be</l>
+                     <l>With thy acceptance bleſt;</l>
+                     <l>And I ſecure on thy defence,</l>
+                     <l>My ſtrength and Saviour, reſt.</l>
+                  </lg>
+               </div>
+            </div>
+            <div n="20" type="Psalm">
+               <pb n="58" facs="tcp:99430:31"/>
+               <head>PSALM <hi>XX.</hi>
+               </head>
+               <lg>
+                  <l n="1">1. THE Lord to thy requeſt attend,</l>
+                  <l>And hear thee in diſtreſs;</l>
+                  <l>The Name of <hi>Jacob</hi>'s God defend,</l>
+                  <l>And grant thy Arms ſucceſs.</l>
+               </lg>
+               <lg>
+                  <l n="2">2. To aid thee from on high repair,</l>
+                  <l>And ſtrength from <hi>Sion</hi> give;</l>
+                  <l>Remember all thy offerings there,</l>
+                  <l>Thy ſacrifice receive.</l>
+               </lg>
+               <lg>
+                  <l n="3">3. To compaſs thy own heart's deſire</l>
+                  <l>Thy counſels ſtill direct;</l>
+                  <l>Make kindly all events conſpire</l>
+                  <l>To bring them to effect.</l>
+               </lg>
+               <lg>
+                  <l n="4">4. To thy Salvation, Lord, for aid</l>
+                  <l>We'll chearfully repair,</l>
+                  <l>With banners in thy Name diſplay'd;</l>
+                  <l>The Lord accept thy pray'r.</l>
+               </lg>
+               <lg>
+                  <pb n="59" facs="tcp:99430:31"/>
+                  <l n="5">5. Our hopes are now confirm'd, the Lord</l>
+                  <l>Will by our Sov'reign ſtand;</l>
+                  <l>From Heav'n the ſaving ſtrength afford</l>
+                  <l>Of his reſiſtleſs Hand.</l>
+               </lg>
+               <lg>
+                  <l n="6">6. Some truſt in Steeds, for war deſign'd,</l>
+                  <l>On Chariots ſome rely;</l>
+                  <l>Againſt them All, we'll call to mind</l>
+                  <l>The Name of God moſt high.</l>
+               </lg>
+               <lg>
+                  <l n="7">7. But from their Steeds and Chariots thrown,</l>
+                  <l>Behold them through the plain,</l>
+                  <l>Diſorder'd, broke, and trampled down,</l>
+                  <l>Whilſt firm our Troops remain.</l>
+               </lg>
+               <lg>
+                  <l n="8">8. Still ſave us, Lord, and ſtill proceed</l>
+                  <l>Our rightful cauſe to bleſs;</l>
+                  <l>Hear, King of Heav'n, in times of need</l>
+                  <l>The pray'rs that we addreſs.</l>
+               </lg>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
